@@ -8,7 +8,7 @@
     <style>
         html, body {
             scroll-behavior: smooth;
-            scroll-padding-top: 70px;
+            scroll-padding-top: 115px;
             background-color: darkslategrey;
         }
 
@@ -142,9 +142,9 @@
 <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" style="width: 100%;">
   <div class="container-fluid">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Logo_of_North_Sumatra_University.svg/3840px-Logo_of_North_Sumatra_University.svg.png?utm_source=id.wikipedia.org&utm_campaign=index&utm_content=thumbnail" style="height: 50px; width: 50px;">
+    <img src="logo.jpeg" style="height: 50px; width: 50px;">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -164,6 +164,14 @@
 
         <li class="nav-item">
           <a class="nav-link" href="#salar">Do's & Don'ts</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#tutor">Tutorial</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Footer</a>
         </li>
             </ul>
             </div>
@@ -273,7 +281,7 @@
         <b><li>
             Pantau Posisi Bus
         </b></li>
-        <p>Saat ingin menaiki bus, pantau posisi bus yang menuju halte Anda menggunakan link <a href="https://apeksi.medan.go.id/bus-listrik" target="_blank">Apeksi</a>.</p>
+        <p>Saat ingin menaiki bus, pantau posisi bus yang menuju halte Anda menggunakan link <a href="https://apeksi.medan.go.id/bus-listrik" target="_blank">Apeksi</a>. Perhatikan nomor bus, halte tujuan, dan jam keberangkatan.</p>
         <img class="materi" src="apeksi.png" alt="Tampilan Web Apeksi">
 
         <b><li>
@@ -285,35 +293,61 @@
         <b><li>
             Naik ke Bus
         </b></li>
-        <p>Saat bus tiba di halte, jangan langsung naik. Utamakan penumpang yang turun dari bus, lalu kalian boleh naik</p>
+        <p>Saat bus tiba di halte, jangan langsung naik. Utamakan penumpang yang turun dari bus, lalu kalian boleh naik.</p>
 
         <b><li>
             Sistem Pembayaran(Tap-In)
         </b></li>
         <p>Pembayaran bersifat 100% non-tunai, jadi siapkan kartu uang elektronik kalian</p>
-        <table border="1" cellpadding="10" cellspacing="0">
+        <table border="1" cellpadding="10" cellspacing="10" style="width: 100%; text-align: center;">
             <tr>
-                <th>Jenis Kartu</th>
-                <th>Harga</th>
+                <th>Jenis Pembayaran</th>
+                <th>Kompatibilitas</th>
             </tr>
             <tr>
-                <td>BRIZZI</td>
-                <td>Rp 2.000</td>
+                <td>Kartu e-Money</td>
+                <td>✅</td>
             </tr>
             <tr>
-                <td>Mandiri e-Money</td>
-                <td>Rp 2.000</td>
+                <td>QR Code e-Wallet</td>
+                <td>✅</td>
             </tr>
             <tr>
-                <td>BCA Flazz</td>
-                <td>Rp 2.000</td>
+                <td>QRIS Tap</td>
+                <td>✅</td>
+            </tr>
+            <tr>
+                <td>Tunai</td>
+                <td>❌</td>
             </tr>
             </table>
 
         <b><li>
+            Cara Pembayaran
+        </b></li>
+        <div class="list">
+            <ul>
+                <li>Jika anda menggunakan kartu e-Money, cukup tap kartu pada reader di pintu bus. Perlu diingat, satu kartu e-Money hanya dapat digunakan oleh satu orang.</li>
+            </ul>
+            <ul>
+                <li>Jika anda menggunakan QR Code e-Wallet atau QRIS Tap, scan kode QR yang ditampilkan oleh petugas bus atau tampilkan "QR bayar" ke mesin scanner.</li>
+            </ul>
+        </div>
+
+        <b><li>
+            Nikmati Perjalanan
+        </b></li>
+        <p>Setelah berhasil melakukan pembayaran, silahkan pilih tempat duduk yang nyaman jika masih tersedia atau berdiri di area yang tidak mengganggu kenyamanan penumpang lain.</p>
+
+        <b><li>
+            Saat Halte Tujuan Sudah Dekat
+        </b></li>
+        <p>Saat bus sudah dekat dengan halte tujuan anda, tekan tombol peringatan untuk memberi tahu sopir bahwa anda akan turun. Kemasi barang anda, jangan sampai ada barang yang tertinggal.</p>
+        
+        <b><li>
             Turun dari Bus
         </b></li>
-        <p>jahsdhahkudhakjshdkhekh</p>
+        <p>Saat bus tiba di halte tujuan, segera turun agar tidak menghalangi penumpang lain yang ingin naik.</p>
 
     </ol>
 </div>
@@ -362,15 +396,15 @@
 
                     <div class="flip-card-front card shadow">
                         <div class="card-body text-center">
-                            <h3>CSS</h3>
-                            <p>Click or hover to learn more</p>
+                            <h3>Geser ke Area Tengah</h3>
+                            <p>Klik atau sentuh untuk mempelajari lebih lanjut</p>
                         </div>
                     </div>
 
                     <div class="flip-card-back card shadow">
                         <div class="card-body text-center">
-                            <h3>CSS</h3>
-                            <p>CSS is used to style webpages.</p>
+                            <h3>Geser ke Area Tengah</h3>
+                            <p>Jika harus berdiri, jangan menghalangi jalan atau area yang dapat mengganggu kenyamanan penumpang lain</p>
                         </div>
                     </div>
 
@@ -388,15 +422,15 @@
 
                     <div class="flip-card-front card shadow">
                         <div class="card-body text-center">
-                            <h3>JavaScript</h3>
-                            <p>Hover me</p>
+                            <h3>Jaga Ketenangan</h3>
+                            <p>Klik atau sentuh untuk mempelajari lebih lanjut</p>
                         </div>
                     </div>
 
                     <div class="flip-card-back card shadow">
                         <div class="card-body text-center">
-                            <h3>JavaScript</h3>
-                            <p>JavaScript adds interaction to websites.</p>
+                            <h3>Jaga Ketenangan</h3>
+                            <p>Hindari mengobrol terlalu keras atau memutar video/musik yang dapat mengganggu kenyamanan orang lain yang berada di dalam bus</p>
                         </div>
                     </div>
 
@@ -414,15 +448,15 @@
 
                     <div class="flip-card-front card shadow">
                         <div class="card-body text-center">
-                            <h3>Bootstrap</h3>
-                            <p>Hover me</p>
+                            <h3>Sopan Santun Berdiri</h3>
+                            <p>Klik atau sentuh untuk mempelajari lebih lanjut</p>
                         </div>
                     </div>
 
                     <div class="flip-card-back card shadow">
                         <div class="card-body text-center">
-                            <h3>Bootstrap</h3>
-                            <p>Bootstrap provides reusable UI components.</p>
+                            <h3>Sopan Santun Berdiri</h3>
+                            <p>Berdirilah menghadap ke depan atau ke samping</p>
                         </div>
                     </div>
 
@@ -434,28 +468,6 @@
     </div>
 </div>
 
-    <ol>
-        <b><li>
-            Hargai Kursi Prioritas
-        </b></li>
-        <p>Jangan duduk di kursi yang ditandai dengan "Kursi Prioritas" yang berwarna merah</p>
-        
-        <b><li>
-            Geser ke Area Tengah
-        </b></li>
-        <p>Jika harus berdiri</p>
-
-        <b><li>
-            Jaga Ketenangan
-        </b></li>
-        <p>Hindari mengobrol terlalu keras atau memutar video/musik yang dapat mengganggu kenyamanan orang lain yang berada di dalam bus</p>
-
-        <b><li>
-            Sopan Santun Berdiri
-        </b></li>
-        <p>Berdirilah menghadap ke depan atau ke samping</p>
-
-    </ol>
 </div>
 <!-- End of Etika penumpang dalam menggunakan bus listrik -->
 
@@ -463,9 +475,8 @@
 <div class="salar reveal" id="salar">
     <h2><i>Do's & Don'ts</i> dalam Penggunaan Bus Listrik</h2>
 
-<div class="salar" id="salar">
+<div class="salar">
     <div class="container py-4">
-        <h2 class="guide-title mb-4">Panduan Penggunaan Bus Trans Metro Deli</h2>
 
         <div class="row g-4">
 
@@ -476,20 +487,28 @@
                     <div class="panel-body">
                         <div class="row g-3">
                             <div class="col-6 guide-item">
-                                <img src="img/do-1.png" alt="Siapkan kartu e-Money">
-                                <p>Siapkan Kartu e-Money</p>
+                                <img src="emoney.png" alt="Siapkan kartu e-Money/saldo e-Wallet">
+                                <p>Siapkan Kartu e-Money/e-Wallet</p>
                             </div>
                             <div class="col-6 guide-item">
-                                <img src="img/do-2.png" alt="Pantau rute lewat aplikasi">
+                                <img src="apeksi.png" alt="Pantau rute lewat aplikasi">
                                 <p>Pantau Rute lewat Aplikasi</p>
                             </div>
                             <div class="col-6 guide-item">
-                                <img src="img/do-3.png" alt="Dahulukan penumpang prioritas">
+                                <img src="kursiprioritas.png" alt="Dahulukan penumpang prioritas">
                                 <p>Dahulukan Penumpang Prioritas</p>
                             </div>
                             <div class="col-6 guide-item">
-                                <img src="img/do-4.png" alt="Tertib antre di halte">
+                                <img src="tertibhalte.png" alt="Tertib antre di halte">
                                 <p>Tertib Antre di Halte</p>
+                            </div>
+                            <div class="col-6 guide-item">
+                                <img src="bel.png" alt="Tekan tombol pada tiang jika halte tujuan sudah dekat">
+                                <p>Tekan tombol pada tiang jika halte tujuan sudah dekat</p>
+                            </div>
+                            <div class="col-6 guide-item">
+                                <img src="barang.png" alt="Jaga barang bawaan anda agar tidak mengganggu penumpang lain">
+                                <p>Jaga barang bawaan anda agar tidak mengganggu penumpang lain</p>
                             </div>
                         </div>
                     </div>
@@ -503,20 +522,28 @@
                     <div class="panel-body">
                         <div class="row g-3">
                             <div class="col-6 guide-item">
-                                <img src="img/dont-1.png" alt="Jangan bayar tunai">
+                                <img src="tunai.png" alt="Jangan bayar tunai">
                                 <p>Jangan Bayar Tunai</p>
                             </div>
                             <div class="col-6 guide-item">
-                                <img src="img/dont-2.png" alt="Jangan cegat bus di sembarang jalan">
+                                <img src="cegat.png" alt="Jangan cegat bus di sembarang jalan">
                                 <p>Jangan Cegat Bus di Sembarang Jalan</p>
                             </div>
                             <div class="col-6 guide-item">
-                                <img src="img/dont-3.png" alt="Jangan makan/minum di dalam bus">
+                                <img src="eatdrink.jpg" alt="Jangan makan/minum di dalam bus">
                                 <p>Jangan Makan/Minum di Dalam Bus</p>
                             </div>
                             <div class="col-6 guide-item">
-                                <img src="img/dont-4.png" alt="Jangan berhenti mendadak di pintu">
+                                <img src="pintubus.png" alt="Jangan berhenti mendadak di pintu">
                                 <p>Jangan Berhenti Mendadak di Pintu</p>
+                            </div>
+                            <div class="col-6 guide-item">
+                                <img src="smoking.png" alt="Jangan merokok, vape, atau barang sejenisnya di dalam Bus">
+                                <p>Jangan merokok, vape, atau barang sejenisnya</p>
+                            </div>
+                            <div class="col-6 guide-item">
+                                <img src="sampah.png" alt="Jangan membuang sampah di dalam Bus">
+                                <p>Jangan meninggalkan sampah di dalam Bus</p>
                             </div>
                         </div>
                     </div>
@@ -528,47 +555,149 @@
 </div>
 
 
-    <ol>
-
-        <h3>Do's</h3>
-        <b><li>
-            Siapkan kartu
-        </b></li>
-
-        <b><li>
-            Letakkan barang bawaan di dada
-        </b></li>
-
-        <b><li>
-            Beri tahu sopir jika
-        </b></li>
-
-        <h3>Don'ts</h3>
-        <b><li>
-            Makan
-        </b></li>
-
-        <b><li>
-            Merokok
-        </b></li>
-
-        <b><li>
-            Membuang sampah sembarangan
-        </b></li>
-
-    </ol>
 </div>
 <!-- End Saran & Larangan dalam penggunaan bus -->
 
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+
+<!-- Start Tutorial Video -->
+<div class="tutor reveal" id="tutor">
 <h1>Video Tutorial Naik Bus</h1>
-<iframe 
-    width="560" 
-    height="315"
-    src="https://youtu.be/oMwV_i_042w?si=ICpzvAMiDh9tOogl"
-    title="YouTube video"
-    frameborder="0"
-    allowfullscreen>
-</iframe>
+    <iframe width="100%" height="720px"
+        src="https://www.youtube.com/">
+    </iframe>
+</div>
+<!-- End Tutorial Video -->
+
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+<p>a</p>
+
+<!-- Start Footer -->
+<footer class="bg-dark text-white text-center py-3" id="footer">
+    <a href="https://www.instagram.com/connectiva.6/" target="_blank" class="text-white me-3">
+        <img src="logo.jpeg" style="height: 50px; width: 50px;">
+    </a>
+
+    <br>
+
+    <p>&copy; 2024 MKWK Team. All rights reserved.</p>
+</footer>
+<!-- End Footer -->
 
 <script src="js/bootstrap.bundle.js"></script>
 <script src="fadeio.js"></script>
